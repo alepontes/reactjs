@@ -126,6 +126,25 @@ const itens = [
     "email": "alexandrelopespontes@gmail.com",
     "group": "4"
   }
+  ,
+  {
+    "image": "",
+    "name": "Alexandre Pontes",
+    "email": "alexandrelopespontes@gmail.com",
+    "group": "4"
+  },
+  {
+    "image": "",
+    "name": "Alexandre Pontes",
+    "email": "alexandrelopespontes@gmail.com",
+    "group": "4"
+  },
+  {
+    "image": "",
+    "name": "Alexandre Pontes",
+    "email": "alexandrelopespontes@gmail.com",
+    "group": "4"
+  }
 ]
 
 function App() {
