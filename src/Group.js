@@ -3,29 +3,18 @@ import './Group.css';
 import Item from './Item.js'
 import Separator from './Separator.js'
 
-function Group() {
+function Group(props) {
     return (
         <div className="Group">
-            <h2 className="Title">Lorem</h2>
-            <Item />
-            <Separator />
-            <Item />
-            <Separator />
-            <Item />
-            <Separator />
-            <Item />
-            <Separator />
-            <Item />
-            <Separator />
-            <Item />
-            <Separator />
-            <Item />
-            <Separator />
-            <Item />
-            <Separator />
-            <Item />
-            <Separator />
-            <Item />
+            <h2 className="Title">{props.title}</h2>
+            {props.itens.map((item) => {
+                return (
+                    < div >
+                        <Item item={item} />
+                        <Separator />
+                    </div>
+                );
+            })}
         </div>
     );
 }
