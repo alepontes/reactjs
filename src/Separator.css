@@ -1,0 +1,7 @@
+
+.Separator {
+    border-bottom: 1px black solid;
+    width: 95%;
+    height: 1px;
+    align-self: center;
+}
