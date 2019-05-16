@@ -1,0 +1,15 @@
+
+.Group {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 30%;
+    margin: 5px 4px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title {
+    font-size: 30px;
+}
