@@ -2,10 +2,9 @@
 .Item {
     display: flex;
     flex-direction: row;
-    /* border: 1px black solid; */
-    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
     margin: 5px 1px;
-    padding: 5px 5px;
     border-radius: 5px;
 }
 

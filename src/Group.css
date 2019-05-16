@@ -7,7 +7,16 @@
     margin: 5px 4px;
     border-radius: 5px;
     justify-content: flex-start;
-    align-items: center;
+    padding: 0px, 10px;
+
+}
+
+.ItemPosition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+    padding: 6px 0px;
 }
 
 .Title {

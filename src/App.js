@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Group from './Group'
 
@@ -19,7 +18,13 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <button title={"Get Data"} onClick={() => this._getData()} />
+          <button className="Button" title="" onClick={() => this._getData()} >
+            Request
+          </button>
+          <button className="Button" title="" onClick={() => this._createData()} >
+            Criar Dados
+          </button>
+
         </header>
         <body className="Body">
           <Group title={"Lorem"} itens={this.state.data.filter(item => '1' === item.group)} />
@@ -41,6 +46,15 @@ export default class App extends React.Component {
       })
       .catch(err => { })
 
+  }
+
+  _createData() {
+    fetch('http://localhost:3001/create')
+      .then(res => res.json())
+      // .then((data) => {
+      // this.setState({ data })
+      // })
+      .catch(err => { })
   }
 
 }

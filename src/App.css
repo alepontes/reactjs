@@ -5,8 +5,11 @@
 .App-header {
   background-color: #282c34;
   height:100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-
 
 .Body {
   display: flex;
@@ -14,6 +17,11 @@
   justify-content: space-around;
   border: 1px black solid;
 }
+
+.Button {
+  width: 150px;
+  height: 50px;
+ }
 
 @keyframes App-logo-spin {
   from {

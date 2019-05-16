@@ -9,7 +9,7 @@ function Group(props) {
             <h2 className="Title">{props.title}</h2>
             {props.itens.map((item) => {
                 return (
-                    < div >
+                    < div className="ItemPosition" >
                         <Item item={item} />
                         <Separator />
                     </div>
