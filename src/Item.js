@@ -5,7 +5,6 @@ import './Item.css';
 function App(props) {
     return (
         <div className="Item">
-            {/* <div className="Image"></div> */}
             <img className="Image" alt="" src={props.item.image} />
             <div className="Text">
                 <p className="Name">{props.item.name}</p>
